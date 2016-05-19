@@ -1,0 +1,8 @@
+Исходя из описанного ниже формата необходимо выделить только корректные записи из файла Clients.csv.
+
+Номер поля;Название поля;Тип (длина);Обязательность
+1;ID;number (4);NOT NULL
+2;FIO;varchar(20 char);NOT NULL
+3;Document;varchar(12 char);NOT NULL
+4;Type_phone;number(1);NULL
+5;Phone;number(11);NULL
